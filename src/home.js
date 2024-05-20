@@ -1,3 +1,5 @@
+import Restaurant from "./img/restaurant.jpg";
+
 export default function homeLoad() {
     const content = document.querySelector("#content");
     const pageContainer = document.createElement("div");
@@ -9,7 +11,7 @@ export default function homeLoad() {
 
     headline.innerText = "Principal Restaurant"
     text.innerText = `Welcome to Principal Restaurant, where culinary excellence meets timeless elegance.`;
-    image.src = "/img/restaurant.jpg";
+    image.src = Restaurant;
     image.width = 1000;
 
     content.appendChild(pageContainer);
