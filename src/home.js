@@ -3,6 +3,7 @@ export default function homeLoad() {
     const pageContainer = document.createElement("div");
     pageContainer.classList.add("page-container");
     const headline = document.createElement("h1");
+    headline.classList.add("title");
     const image = document.createElement("img");
     const text = document.createElement("p");
 

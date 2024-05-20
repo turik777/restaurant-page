@@ -1,7 +1,7 @@
 export default function contactLoad() {
     const content = document.querySelector("#content");
     const pageContainer = document.createElement("div");
-    pageContainer.classList.add("page-container");
+    pageContainer.classList.add("page-container", "contact");
     const headline = document.createElement("h1");
     const hoursHeadline = document.createElement("h3");
     const address = document.createElement("p");
